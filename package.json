@@ -1,0 +1,20 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^10.7.3",
+    "pactum": "^3.7.1"
+  },
+  "dependencies": {
+    "nightwatch": "^3.8.0"
+  }
+}
