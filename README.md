@@ -1,6 +1,6 @@
 # API Automation Framework
 
-This project automates the verification of user tasks using Rest Assured and TestNG. The scenario involves checking that all users from the city `FanCode` have completed more than half of their todo tasks.
+This project automates the verification of user tasks using Jest ,Pactum and javaScript. The scenario involves checking that all users from the city `FanCode` have completed more than half of their todo tasks.
 
 ## Scenario
 
