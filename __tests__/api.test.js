@@ -41,15 +41,7 @@ describe('All the users of City `FanCode` should have more than half of their to
   });
 
   it('User belongs to the city FanCode', async () => {
-    await spec()
-      .get('https://jsonplaceholder.typicode.com/users')
-      .expectStatus(200)
-      .expectJsonLength(10);
-
-    fanCodeCityUsers.forEach(userId => {
-      console.log(`User ${userId} belongs to city fancode.`);
-    });
-      
+    expect(fanCodeCityUsers.length).toEqual(3);  
   });
 
   it('Then User Completed task percentage should be greater than 50%', async () => {
