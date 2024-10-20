@@ -1,9 +1,6 @@
 const { beforeAll } = require('@jest/globals');
 const { spec } = require('pactum');
-// const chai = require('chai');
 const { expect} = require('@jest/globals');
-// import {assert, expect} from 'chai';
-// const expect = require('chai').expect;
 
 describe('All the users of City `FanCode` should have more than half of their todos task completed.', () => {
   const users = [];
