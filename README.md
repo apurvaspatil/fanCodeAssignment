@@ -12,8 +12,7 @@ This project automates the verification of user tasks using Rest Assured and Tes
 
 ## Prerequisites
 
-- Java 8 or higher
-- Maven
+- node version 20.8.0
 - Git
 
 ## Setup
