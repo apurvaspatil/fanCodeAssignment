@@ -43,7 +43,7 @@ describe('All the users of City `FanCode` should have more than half of their to
     });
   });
 
-  it('User belongs to the city FanCode @apurva', async () => {
+  it('User belongs to the city FanCode', async () => {
     await spec()
       .get('https://jsonplaceholder.typicode.com/users')
       .expectStatus(200)
